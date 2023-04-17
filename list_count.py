@@ -6,8 +6,6 @@ def findRepeatNumber(nums):
     :type nums: List[int]
     :rtype: int
     """
-
-
     for i in set(nums):
         if nums.count(i) > 1:
             print(i)

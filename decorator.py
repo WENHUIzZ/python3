@@ -39,10 +39,9 @@ def doo(a, b):
 foo(1, 2)  # 再运行本身函数
 doo(4, 5)
 
-"""类装饰器"""
-
 
 class Foo:
+    """类装饰器"""
     def __init__(self, func):
         self.func = func
 
@@ -59,4 +58,4 @@ def bar():
     time.sleep(2)
 
 
-bar()
+# bar()
